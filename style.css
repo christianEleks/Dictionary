@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+body, html{
+    overflow-x: hidden;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background:rgba(0,0,0,0.7) url(me.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    height: 100vh;   
+}
+.content{
+    background-color: rgba(0, 0, 0, 0.582);
+    width:30%;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+.card{
+    background-color: rgba(0, 0, 0, 0.233);
+    border-radius: 1rem;
+    padding: 2rem 2rem;
+}
+.cardo{
+    margin: 1rem 0;
+    text-align: start;
+}
+.searchform{
+    background-color: rgba(0, 0, 0, 0.582);
+    height: 4rem;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 6px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+padding:10px 15px;
+border-radius: 5px;
+width:60%;
+margin-right: 3rem;
+border:2px solid orangered;
+}
+
+button{
+    padding:7px 12px;
+    border-radius: 5px;
+    border:2px solid orangered;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width:1280px){
+    .searchform{
+        width:40%;
+    }
+    input{
+        width: 65%;
+    }
+    .container{
+        align-items: center;
+    }
+    .content{
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width:912px){
+    .searchform{
+        width:70%;
+    }
+    input{
+        width: 72%;
+    }
+    .container{
+        align-items: center;
+    }
+    .content{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .searchform{
+        width:80%;
+    }
+    input{
+        width: 65%;
+    }
+    .container{
+        align-items: center;
+    }
+    .content{
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width:414px){
+    .searchform{
+        width:90%;
+    }
+    input{
+        width: 62%;
+    }
+    .container{
+        align-items: center;
+    }
+    .content{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:375px){
+    .searchform{
+        width:90%;
+    }
+    input{
+        width: 60%;
+    }
+    .container{
+        align-items: center;
+    }
+    .content{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:360px){
+    .searchform{
+        width:90%;
+    }
+    input{
+        width: 60%;
+    }
+    .container{
+        align-items: center;
+    }
+    .content{
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .searchform{
+        width:90%;
+    }
+    input{
+        width: 55%;
+    }
+    .card{
+        padding: 1rem 1rem;
+    }
+    .content{
+        width: 99%;
+    }
+}
+
+@media only screen and (max-width:280px){
+    .searchform{
+        width:95%;
+    }
+    input{
+        width: 50%;
+    }
+    .content{
+        width: 99%;
+    }
+}
