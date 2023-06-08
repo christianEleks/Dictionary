@@ -18,7 +18,7 @@ body, html{
     background-size: cover;
     background-position: center;
     background-blend-mode: darken;
-    height: 140vh;  
+    height: 120vh;  
     
 }
 
@@ -106,6 +106,7 @@ button:hover{
     }
     .container{
         align-items: center;
+         height: 140vh;
     }
     .content{
         width: 80%;
