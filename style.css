@@ -18,19 +18,20 @@ body, html{
     background-size: cover;
     background-position: center;
     background-blend-mode: darken;
-    height: 100vh;   
+    height: 100vh;  
+    
 }
+
 .content{
     background-color: rgba(0, 0, 0, 0.582);
     width:30%;
     margin: 0 auto;
     border-radius: 1rem;
-    padding: 1rem 2rem;
 }
 .card{
     background-color: rgba(0, 0, 0, 0.233);
     border-radius: 1rem;
-    padding: 2rem 2rem;
+    padding: 1rem 3rem;
 }
 .cardo{
     margin: 1rem 0;
@@ -114,7 +115,7 @@ button:hover{
 
 @media only screen and (max-width:414px){
     .searchform{
-        width:90%;
+        width:95%;
     }
     input{
         width: 62%;
@@ -123,28 +124,14 @@ button:hover{
         align-items: center;
     }
     .content{
-        width: 90%;
+        width: 95%;
     }
+  
 }
 
 @media only screen and (max-width:375px){
     .searchform{
-        width:90%;
-    }
-    input{
-        width: 60%;
-    }
-    .container{
-        align-items: center;
-    }
-    .content{
-        width: 90%;
-    }
-}
-
-@media only screen and (max-width:360px){
-    .searchform{
-        width:90%;
+        width:95%;
     }
     input{
         width: 60%;
@@ -154,6 +141,21 @@ button:hover{
     }
     .content{
         width: 95%;
+    }
+}
+
+@media only screen and (max-width:360px){
+    .searchform{
+        width:97%;
+    }
+    input{
+        width: 60%;
+    }
+    .container{
+        align-items: center;
+    }
+    .content{
+        width: 97%;
     }
 }
 
